@@ -1,4 +1,8 @@
 # openDTU-Sulfuroid
+
+<img src="https://github.com/ccadic/openDTU-Sulfuroid/blob/main/finalbox2.JPG">
+
+
 Config File for the openDTU PCB
 
 <img src="https://github.com/ccadic/openDTU-Sulfuroid/blob/main/openDTU4.jpg">
