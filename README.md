@@ -3,6 +3,7 @@
 <img src="https://github.com/ccadic/openDTU-Sulfuroid/blob/main/finalbox2.JPG">
 
 Derived from :https://www.opendtu.solar/ 
+The pcb is for sale on : https://www.tindie.com/products/electronictrik/esp32s3-opendtu-solar-monitoring-tool/
 
 **Introducing the revolutionary OpenDTU Module: The Future of Solar Energy Management!**
 
