@@ -1,0 +1,81 @@
+
+(rules PCB openDTU
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 99)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" default
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +3.3V "Net-(SW1-A)" "unconnected-(SW1-C-Pad3)" /CE /CS /SCK /MOSI
+    /MISO /IRQ "unconnected-(U2-RST-Pad3)" "unconnected-(U2-Pad5)" "unconnected-(U2-Pad6)" "unconnected-(U2-Pad7)" "unconnected-(U2-15-Pad8)" "unconnected-(U2-17-Pad10)"
+    "unconnected-(U2-18-Pad11)" "unconnected-(U2-8-Pad12)" "unconnected-(U2-3-Pad13)" "unconnected-(U2-46-Pad14)" "unconnected-(U2-9-Pad15)" "unconnected-(U2-14-Pad20)" "unconnected-(U2-5V-Pad21)" "unconnected-(U2-19-Pad25)"
+    "unconnected-(U2-20-Pad26)" "unconnected-(U2-21-Pad27)" "unconnected-(U2-47-Pad28)" "unconnected-(U2-48-Pad29)" "unconnected-(U2-45-Pad30)" "unconnected-(U2-0-Pad31)" "unconnected-(U2-35-Pad32)" "unconnected-(U2-36-Pad33)"
+    "unconnected-(U2-37-Pad34)" "unconnected-(U2-38-Pad35)" "unconnected-(U2-39-Pad36)" "unconnected-(U2-40-Pad37)" "unconnected-(U2-41-Pad38)" "unconnected-(U2-42-Pad39)" "unconnected-(U2-2-Pad40)" "unconnected-(U2-1-Pad41)"
+    "unconnected-(U2-RX-Pad42)" "unconnected-(U2-TX-Pad43)" /SDA /SCL
+    (clearance_class default)
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
