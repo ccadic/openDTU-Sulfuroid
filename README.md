@@ -2,6 +2,7 @@
 
 <img src="https://github.com/ccadic/openDTU-Sulfuroid/blob/main/finalbox2.JPG">
 
+Derived from :https://www.opendtu.solar/ 
 
 **Introducing the revolutionary OpenDTU Module: The Future of Solar Energy Management!**
 
