@@ -1,0 +1,109 @@
+(footprint "GM12864-59N" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -11.89 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 52a2460c-551c-45e2-9e47-d2ae51a50b26)
+  )
+  (fp_text value "GM12864-59N" (at 0 -10.39 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp dc4333c7-054a-450a-b222-e2c0879fdc0a)
+  )
+  (fp_text user "SCL" (at -2.032 -41.656 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left bottom))
+    (tstamp 5e6126cd-d981-4d4b-a753-b9e0bde23f48)
+  )
+  (fp_text user "GND" (at 0.508 -41.656 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left bottom))
+    (tstamp 6c70306b-70f8-4ddf-8aa3-2c5093590ef1)
+  )
+  (fp_text user "SDA" (at -4.572 -41.656 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left bottom))
+    (tstamp 9a097e3c-acd7-4c07-a610-88e7f4d05062)
+  )
+  (fp_text user "VCC" (at 3.048 -41.656 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left bottom))
+    (tstamp e248c455-8b50-4320-8b4f-941a55a96140)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -8.89 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp feda4f47-96b5-4db3-a9c2-855a59cf8c2f)
+  )
+  (fp_line (start -27.94 -45.72) (end -27.94 -1.12)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 35d1a2bb-dba9-4070-aa2b-547e66e47cdf))
+  (fp_line (start -27.94 -45.72) (end 28.06 -45.72)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 7e836fc2-f87d-405e-a227-ddd0073b8650))
+  (fp_line (start -27.94 -1.12) (end 28.06 -1.12)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp ea2a2a59-37e3-421b-9a99-07cd3795a5d2))
+  (fp_line (start -26.84 -40.92) (end -26.84 -5.92)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 66221705-8859-4acd-96b3-2e569ac2da70))
+  (fp_line (start -26.84 -40.92) (end 26.76 -40.92)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 1dd68501-b04c-44fe-921a-bc6f562d91e3))
+  (fp_line (start -26.84 -5.92) (end 26.76 -5.92)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 4f4e2d0d-c1b4-4502-8a49-e3191bee372e))
+  (fp_line (start 26.76 -40.92) (end 26.76 -5.92)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 67e8ac66-bffd-4654-837d-240a1fa469b3))
+  (fp_line (start 28.06 -45.72) (end 28.06 -1.12)
+    (stroke (width 0.25) (type solid)) (layer "F.SilkS") (tstamp 3ec476cf-6025-44c6-aa24-5a15914f9062))
+  (fp_circle (center -25.34 -43.72) (end -24.24 -43.72)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 08101bd9-b5be-4bd7-86c1-67844c7f3eef))
+  (fp_circle (center -25.34 -3.12) (end -24.24 -3.12)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp e5fe272c-82ba-40b0-ab00-259d7724632f))
+  (fp_circle (center -3.75 -43.32) (end -3.3 -43.32)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp bdb13a64-f7ca-40c6-9ee9-16a5f2602caf))
+  (fp_circle (center -1.21 -43.32) (end -0.76 -43.32)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp c2e4e09b-92bf-4fae-87d4-9215531c30db))
+  (fp_circle (center 1.33 -43.32) (end 1.78 -43.32)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 04fe7556-f6db-44ce-907c-b128f27c9a96))
+  (fp_circle (center 3.87 -43.32) (end 4.32 -43.32)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp a99f3584-5728-4d48-a76a-8e2b23fd1792))
+  (fp_circle (center 25.46 -43.72) (end 26.56 -43.72)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp a059ab0c-07c1-475e-b46f-b32ccac9fc12))
+  (fp_circle (center 25.46 -3.12) (end 26.56 -3.12)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 768e42f7-5e35-45b5-b93b-a8edc697de12))
+  (fp_circle (center -25.3492 -43.7134) (end -24.2492 -43.7134)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp bc4773ed-e5c3-44d6-85ed-55b774efbd95))
+  (fp_circle (center -25.3492 -3.1134) (end -24.2492 -3.1134)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp bbe6a2e7-4aac-4f9d-8ebf-fa39da39f5dd))
+  (fp_circle (center 25.4508 -43.7134) (end 26.5508 -43.7134)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp ac06ddbb-880d-4855-a73b-ee90571e360d))
+  (fp_circle (center 25.4508 -3.1134) (end 26.5508 -3.1134)
+    (stroke (width 0.25) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 0015db2d-07d7-4354-b242-63189e897099))
+  (pad "1" thru_hole circle (at -3.7592 -43.3324) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp a2ed9f9f-e6e4-4b6a-9c77-a545cf1dc834))
+  (pad "2" thru_hole circle (at -1.2192 -43.3324) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 033e2d38-f272-4168-b06b-2a9b0ae6269a))
+  (pad "3" thru_hole circle (at 1.3208 -43.3324) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp a50e5685-07b5-4de9-b7b2-e59f4a553c15))
+  (pad "4" thru_hole circle (at 3.8608 -43.3324) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 667ad03e-63c3-46b8-a3fc-4093c5658fc6))
+  (group "" (id 0ce3f05a-a136-4eb2-87ee-3a49b0b0787c)
+    (members
+      04fe7556-f6db-44ce-907c-b128f27c9a96
+      08101bd9-b5be-4bd7-86c1-67844c7f3eef
+      1dd68501-b04c-44fe-921a-bc6f562d91e3
+      35d1a2bb-dba9-4070-aa2b-547e66e47cdf
+      3ec476cf-6025-44c6-aa24-5a15914f9062
+      4f4e2d0d-c1b4-4502-8a49-e3191bee372e
+      66221705-8859-4acd-96b3-2e569ac2da70
+      67e8ac66-bffd-4654-837d-240a1fa469b3
+      768e42f7-5e35-45b5-b93b-a8edc697de12
+      7e836fc2-f87d-405e-a227-ddd0073b8650
+      a059ab0c-07c1-475e-b46f-b32ccac9fc12
+      a99f3584-5728-4d48-a76a-8e2b23fd1792
+      bdb13a64-f7ca-40c6-9ee9-16a5f2602caf
+      c2e4e09b-92bf-4fae-87d4-9215531c30db
+      e5fe272c-82ba-40b0-ab00-259d7724632f
+      ea2a2a59-37e3-421b-9a99-07cd3795a5d2
+    )
+  )
+  (group "" (id 41c1f053-e289-43c4-9e4c-70a8791ca9ed)
+    (members
+      0015db2d-07d7-4354-b242-63189e897099
+      ac06ddbb-880d-4855-a73b-ee90571e360d
+      bbe6a2e7-4aac-4f9d-8ebf-fa39da39f5dd
+      bc4773ed-e5c3-44d6-85ed-55b774efbd95
+    )
+  )
+  (model "${KIPRJMOD}/LCD-GM12864-59N.STEP"
+    (offset (xyz 7.5 28 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
